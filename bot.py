@@ -6,7 +6,7 @@ class Jarvis(Client):
 
     # Connect to dialogflow
     def apiaiCon(self):
-        self.CLIENT_ACCESS_TOKEN = "Your Client Access Token"
+        self.CLIENT_ACCESS_TOKEN = "ef8df146b2d54ce9a436d1d852f4bd58"
         self.ai = apiai.ApiAI(self.CLIENT_ACCESS_TOKEN)
         self.request = self.ai.text_request()
         self.request.lang = 'de' #Default : English
